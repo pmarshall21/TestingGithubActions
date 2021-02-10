@@ -9,6 +9,6 @@ public class Library {
     }
     
     public String howdyWorld() {
-    	return "Howdy world";
+    	return "Howdy world!";
     }
 }
