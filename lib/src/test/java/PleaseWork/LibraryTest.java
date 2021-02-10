@@ -16,6 +16,6 @@ public class LibraryTest {
     	Library classUnderTest = new Library();
     	
     	String expected = "Howdy world";
-    	assertEquals(expected, classUnderTest.howdyWorld());
+    	assertEquals("howdyWorld() should return \"Howdy world\"", expected, classUnderTest.howdyWorld());
     }  
 }
